@@ -1,5 +1,7 @@
 # THE FUTURE OF CONSTRUCTION 2026 SYMPOSIUM
-### 
+
+### Symposium on Digital Fabrication and Augmented Computational Design
+
 ### Website Archive
 
 ## License
