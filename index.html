@@ -29,8 +29,19 @@
     <link href="./src/css/styles.css" rel="stylesheet" />
   </head>
 
-  <body class="bg-gradient-to-t from-sky-400 to-pink-400 min-h-screen">
-    <header class="">
+  <body class="">
+    <!-- Background GIF -->
+    <div class="fixed inset-0 -z-10 bottom-80 flex items-center justify-center">
+      <img
+        src="src/css/imgs/background.gif"
+        alt="Background animation"
+        class="h-screen sm:h-auto sm:w-screen aspect-square scale-300"
+        loading="lazy"
+      />
+    </div>
+    <header
+      class="bg-gradient-to-t from-sky-400/95 to-pink-400/95 min-h-screen"
+    >
       <nav class="bg-black fixed w-full z-[100]">
         <div class="flex justify-between px-8 py-4">
           <a
@@ -60,8 +71,8 @@
         </div>
         <div class="items-center text-center absolute bottom-20 left-0 right-0">
           <h3 class="pt-6">20—23 May 2026<br />ETH Zurich</h3>
-          <h3 class="text-lg sm:text-2xl pt-20">More details coming soon.</h3>
-          <h3 class="text-lg sm:text-2xl pt-4">
+          <p class="text-lg sm:text-2xl pt-20">More details coming soon.</p>
+          <p class="text-lg sm:text-2xl pt-4">
             <a
               class="underline hover:text-pink-400 duration-300"
               href="https://forms.gle/df82Z7dnrt6NW7mPA"
@@ -69,7 +80,7 @@
               >Sign-up</a
             >
             to stay updated!
-          </h3>
+          </p>
         </div>
       </div>
     </header>
